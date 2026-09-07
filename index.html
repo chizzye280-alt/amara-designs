@@ -1,363 +1,1014 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amara Designs – Logos, Flyers & Simple Websites</title>
-    <meta name="description" content="I design logos, flyers, and simple websites for beauty, fashion, food, and education brands in Nigeria.">
+  <!--
+    AMARA DESIGN — PORTFOLIO
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    CUSTOMIZATION:
+    1. Replace "Amara" with your preferred name if needed.
+    2. Your WhatsApp number is connected through script.js.
+    3. Your email is: chizzye280@gmail.com
+    4. Your Instagram is: @Amaradesign2026
+    5. Project images are stored in the /assets folder.
+    6. Edit project names/descriptions in this file.
+    7. Change the main accent color in style.css:
+       --accent: #6366f1;
+  -->
 
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <meta
+    name="theme-color"
+    content="#6366f1"
+  >
+
+  <meta
+    name="description"
+    content="Amara — Brand & Social Designer. Branding and social media design for beauty, fashion, food and education brands."
+  >
+
+  <title>Amara — Brand & Social Designer</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <header class="navbar">
-        <a href="#home" class="logo">Amara<span>Designs</span></a>
-
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#process">How It Works</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
-        <a href="#contact" class="nav-button">Get a Quote</a>
-    </header>
-
-
-    <!-- Hero -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-
-            <p class="eyebrow">CREATIVE DESIGN STUDIO · NIGERIA</p>
-
-            <h1>
-                I design logos, flyers & simple websites for
-                <span>beauty, fashion, food & education brands.</span>
-            </h1>
-
-            <p class="hero-text">
-                Clean, professional designs that help you attract more customers
-                and look trustworthy online.
-            </p>
-
-            <div class="hero-buttons">
-                <a href="https://wa.me/2349137679230" class="button primary">
-                    Get a Quote on WhatsApp
-                </a>
-
-                <a href="#portfolio" class="button secondary">
-                    View My Work
-                </a>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- About -->
-    <section id="about" class="section about">
-        <div class="section-heading">
-            <p class="eyebrow">ABOUT ME</p>
-            <h2>Hi, I'm Amara.</h2>
-        </div>
-
-        <div class="about-content">
-            <p>
-                I'm a designer based in Nigeria. I help small businesses in
-                beauty, fashion, food, and education look professional online.
-            </p>
-
-            <p>I specialize in:</p>
-
-            <ul>
-                <li>Logo design</li>
-                <li>Flyers, posters & price lists</li>
-                <li>Simple websites & portfolios</li>
-            </ul>
-
-            <p>
-                My goal is to make your brand look clear, attractive, and
-                trustworthy — even if you're just starting out.
-            </p>
-        </div>
-    </section>
-
-
-    <!-- Services -->
-    <section id="services" class="section services">
-        <div class="section-heading centered">
-            <p class="eyebrow">SERVICES & PACKAGES</p>
-            <h2>What I Offer</h2>
-            <p>Simple, professional design packages for growing businesses.</p>
-        </div>
-
-        <div class="service-grid">
-
-            <article class="service-card">
-                <span class="card-number">01</span>
-                <h3>Branding Starter</h3>
-                <p class="card-intro">
-                    Logo + Brand Colors + 2 Flyers
-                </p>
-
-                <p>
-                    Perfect for new businesses that need to look professional fast.
-                </p>
-
-                <ul>
-                    <li>1 logo concept with 2–3 color options</li>
-                    <li>Brand colors & fonts guide</li>
-                    <li>2 designed flyers/posters</li>
-                    <li>Delivery: 5–7 days</li>
-                </ul>
-
-                <strong>Starting from ₦25,000</strong>
-            </article>
-
-
-            <article class="service-card featured">
-                <span class="popular">POPULAR</span>
-                <span class="card-number">02</span>
-
-                <h3>Online Presence Setup</h3>
-
-                <p class="card-intro">
-                    Logo + Simple Website/Portfolio
-                </p>
-
-                <p>
-                    For businesses that want a clean online presence.
-                </p>
-
-                <ul>
-                    <li>1 simple logo</li>
-                    <li>Brand colors & fonts</li>
-                    <li>1–3 page website</li>
-                    <li>WhatsApp link on the site</li>
-                    <li>Delivery: 7–10 days</li>
-                </ul>
-
-                <strong>Starting from ₦35,000</strong>
-            </article>
-
-
-            <article class="service-card">
-                <span class="card-number">03</span>
-
-                <h3>Custom Design Work</h3>
-
-                <p class="card-intro">
-                    Need something specific?
-                </p>
-
-                <p>I also design:</p>
-
-                <ul>
-                    <li>Menus, price lists & catalogs</li>
-                    <li>Instagram post templates</li>
-                    <li>Event flyers & posters</li>
-                </ul>
-
-                <p>
-                    Tell me what you need and I'll give you a custom quote.
-                </p>
-            </article>
-
-        </div>
-    </section>
-
-<!-- Portfolio -->
-    <section id="portfolio" class="section portfolio">
-
-        <div class="section-heading centered">
-            <p class="eyebrow">SELECTED WORK</p>
-            <h2>My Work</h2>
-            <p>Sample projects created to demonstrate different design styles.</p>
-        </div>
-
-        <div class="portfolio-category">
-            <h3>Beauty & Fashion</h3>
-            <p>
-                Sample branding for a makeup, hair, or fashion brand.
-                <strong>Fake project for portfolio.</strong>
-            </p>
-
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <img src="image.html/Coro/Glowlogo.png" alt="GlowByZara Logo">
-                    <h4>GlowByZara – Logo</h4>
-                </div>
-
-                <div class="portfolio-item">
-                    <img src="image.html/Coro/Glowprice.png" alt="GlowByZara Price List">
-                    <h4>GlowByZara – Price List</h4>
-                </div>
-
-                <div class="portfolio-item">
-                    <img src="image.html/Coro/GlowWeb.png" alt="GlowByZara Instagram Post">
-                    <h4>GlowByZara – Instagram Post</h4>
-                </div>
-            </div>
-        </div>
-
-        <div class="portfolio-category">
-            <h3>Food & Restaurants</h3>
-            <p>
-                Sample branding for a food business.
-                <strong>Fake project for portfolio.</strong>
-            </p>
-
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <img src="image.html/Coro/Mamatslogo.png" alt="Mama T's Kitchen Logo">
-                    <h4>Mama T's Kitchen – Logo</h4>
-                </div>
-
-                <div class="portfolio-item">
-                    <img src="image.html/Coro/Mamatsmenu.png" alt="Mama T's Kitchen Menu">
-                    <h4>Mama T's Kitchen – Menu</h4>
-                </div>
-
-                <div class="portfolio-item">
-                    <img src="image.html/Coro/Mamatsweb.png" alt="Weekend Special Poster">
-                    <h4>Weekend Special Poster</h4>
-                </div>
-            </div>
-        </div>
-
-        <div class="portfolio-category">
-            <h3>Education & Tutorials</h3>
-            <p>
-                Sample branding and simple website for an education brand.
-                <strong>Fake project for portfolio.</strong>
-            </p>
-
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <img src="image.html/Coro/Brightmindlogo.png" alt="BrightMinds Tutorial Logo">
-                    <h4>BrightMinds Tutorial – Logo</h4>
-                </div>
-
-                <div class="portfolio-item">
-                    <img src="image.html/Coro/Brightmindflyer.png" alt="BrightMinds Tutorial Class Flyer">
-                    <h4>BrightMinds Tutorial – Class Flyer</h4>
-                </div>
-
-                <div class="portfolio-item">
-                    <img src="image.html/Coro/Brightsmindweb.png" alt="Website Preview">
-                    <h4>Website Preview Coming Soon</h4>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-
-    <!-- Process -->
-    <section id="process" class="section process">
-
-        <div class="section-heading centered">
-            <p class="eyebrow">MY PROCESS</p>
-            <h2>How It Works</h2>
-        </div>
-
-        <div class="steps">
-
-            <div class="step">
-                <span>01</span>
-                <h3>You tell me about your business</h3>
-                <p>
-                    Share your brand name, what you sell, and any ideas or colors
-                    you like.
-                </p>
-            </div>
-
-            <div class="step">
-                <span>02</span>
-                <h3>I design & send drafts</h3>
-                <p>
-                    I create your logo, flyers, or website and share them with
-                    you for feedback.
-                </p>
-            </div>
-
-            <div class="step">
-                <span>03</span>
-                <h3>We make adjustments</h3>
-                <p>
-                    You tell me what to change, and I refine the designs.
-                </p>
-            </div>
-
-            <div class="step">
-                <span>04</span>
-                <h3>You get your final files</h3>
-                <p>
-                    I send your final logo, flyers, and/or website link ready
-                    to use.
-                </p>
-            </div>
-
-        </div>
-
-        <p class="process-note">
-            Most projects are completed within 5–10 days.
-        </p>
-
-    </section>
-
-
-    <!-- Contact -->
-    <section id="contact" class="contact-section">
-
-        <div class="contact-box">
-
-            <p class="eyebrow">LET'S WORK TOGETHER</p>
-
-            <h2>Ready to upgrade your brand?</h2>
-
-            <p>
-                If you run a beauty, fashion, food, or education business and
-                want professional designs, let's talk.
-            </p>
-
-            <p>Send me a message on WhatsApp and tell me:</p>
-
-            <ul>
-                <li>Your business name</li>
-                <li>What you sell</li>
-                <li>What you need — logo, flyer, website, etc.</li>
-            </ul>
-
-            <a href="https://wa.me/2349137679230" class="button primary">
-                Chat on WhatsApp
+  <!-- =========================
+       HEADER
+  ========================== -->
+
+  <header class="site-header" id="home">
+
+    <div class="container nav-wrap">
+
+      <a
+        class="brand"
+        href="#home"
+        aria-label="Amara Design home"
+      >
+        <span class="brand-name">
+          Amara <span class="spark">✦</span>
+        </span>
+
+        <span class="brand-subtitle">
+          Brand &amp; Social Designer
+        </span>
+      </a>
+
+      <!-- Mobile menu button -->
+      <button
+        class="menu-toggle"
+        aria-label="Open navigation"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+
+      <!-- Navigation -->
+      <nav
+        class="nav"
+        aria-label="Primary navigation"
+      >
+        <a
+          class="nav-link active"
+          href="#home"
+        >
+          Home
+        </a>
+
+        <a
+          class="nav-link"
+          href="#work"
+        >
+          Work
+        </a>
+
+        <a
+          class="nav-link"
+          href="#services"
+        >
+          Services
+        </a>
+
+        <a
+          class="nav-link"
+          href="#contact"
+        >
+          Contact
+        </a>
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <!-- =========================
+       MAIN CONTENT
+  ========================== -->
+
+  <main>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section class="hero">
+
+      <div class="container hero-grid">
+
+        <div class="hero-copy">
+
+          <p class="eyebrow">
+            CREATIVE DESIGNER
+            <span>•</span>
+            SOCIAL MEDIA
+            <span>•</span>
+            BRANDING
+          </p>
+
+          <h1>
+            Hi, I’m <span>Amara</span>
+          </h1>
+
+          <p class="hero-text">
+            I design beautiful brands and social media content
+            for beauty, fashion, food and education businesses.
+          </p>
+
+
+          <!-- Hero buttons -->
+
+          <div class="hero-actions">
+
+            <a
+              class="btn btn-primary whatsapp-link"
+              href="#"
+              data-message="Hi Amara! I'd like to hire you for a design project."
+            >
+              <span>◉</span>
+              Hire me on WhatsApp
+              <b>→</b>
             </a>
 
-            <p class="instagram">
-                Instagram: <strong>@amaradesign2026</strong>
-            </p>
+
+            <a
+              class="btn btn-secondary"
+              href="#work"
+            >
+              View my work
+              <span>⌄</span>
+            </a>
+
+          </div>
+
+
+          <!-- Small trust section -->
+
+          <div class="trust-row">
+
+            <span>✦ Creative</span>
+
+            <i></i>
+
+            <span>♡ Reliable</span>
+
+            <i></i>
+
+            <span>ϟ On time</span>
+
+          </div>
 
         </div>
+
+
+        <!-- Hero image -->
+
+        <div class="hero-image-wrap">
+
+          <img
+            src="assets/hero-amara.png"
+            alt="Amara working as a brand and social designer in her creative studio"
+          >
+
+          <div class="hero-note">
+            Designs<br>
+            that tell<br>
+            your story
+            <span>♡</span>
+          </div>
+
+        </div>
+
+      </div>
 
     </section>
 
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 Amara Designs. All rights reserved.</p>
-        <p>Logos · Flyers · Simple Websites</p>
-    </footer>
+    <!-- =========================
+         WORK
+    ========================== -->
+
+    <section
+      class="work section"
+      id="work"
+    >
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <p class="eyebrow">
+            MY WORK
+          </p>
+
+          <h2>
+            Featured Projects
+          </h2>
+
+          <p>
+            Creative concepts designed to help brands look good,
+            get noticed and grow.
+          </p>
+
+        </div>
 
 
-    <script src="script.js"></script>
+        <!-- =====================
+             BEAUTY & FASHION
+        ====================== -->
 
-</body>
-</html>
+        <div class="category">
+
+          <div class="category-heading">
+
+            <h3>
+              <span class="category-icon">
+                ♢
+              </span>
+
+              Beauty &amp; Fashion
+            </h3>
+
+            <span class="category-label">
+              3 projects
+            </span>
+
+          </div>
+
+
+          <div class="project-grid">
+
+
+            <!-- LUXE MUSE -->
+
+            <article
+              class="project-card"
+              data-project="luxe"
+            >
+
+              <img
+                src="assets/luxe-muse.png"
+                alt="Luxe Muse luxury fashion boutique branding concept"
+              >
+
+              <div class="project-body">
+
+                <div class="tag">
+                  Fashion Boutique
+                </div>
+
+                <h4>
+                  Luxe Muse
+                </h4>
+
+                <p>
+                  Elegant, premium branding for a modern fashion
+                  boutique, including social media and promotional design.
+                </p>
+
+                <button
+                  class="case-btn"
+                  type="button"
+                >
+                  View case
+                </button>
+
+              </div>
+
+            </article>
+
+
+            <!-- AMARA GLOW -->
+
+            <article
+              class="project-card"
+              data-project="glow"
+            >
+
+              <img
+                src="assets/amara-glow.png"
+                alt="Amara Glow skincare and beauty branding concept"
+              >
+
+              <div class="project-body">
+
+                <div class="tag">
+                  Skincare Brand
+                </div>
+
+                <h4>
+                  Amara Glow
+                </h4>
+
+                <p>
+                  Soft, feminine skincare branding with packaging,
+                  social media graphics and a polished visual identity.
+                </p>
+
+                <button
+                  class="case-btn"
+                  type="button"
+                >
+                  View case
+                </button>
+
+              </div>
+
+            </article>
+
+
+            <!-- VELORA STUDIO -->
+
+            <article
+              class="project-card"
+              data-project="velora"
+            >
+
+              <img
+                src="assets/velora-studio.png"
+                alt="Velora Studio luxury beauty salon branding concept"
+              >
+
+              <div class="project-body">
+
+                <div class="tag">
+                  Beauty Salon
+                </div>
+
+                <h4>
+                  Velora Studio
+                </h4>
+
+                <p>
+                  Luxury beauty branding for a salon covering
+                  hair, skin, nails and makeup services.
+                </p>
+
+                <button
+                  class="case-btn"
+                  type="button"
+                >
+                  View case
+                </button>
+
+              </div>
+
+            </article>
+
+          </div>
+
+        </div>
+
+
+        <!-- =====================
+             FOOD
+        ====================== -->
+
+        <div class="category">
+
+          <div class="category-heading">
+
+            <h3>
+              <span class="category-icon">
+                ♜
+              </span>
+
+              Food
+            </h3>
+
+            <span class="category-label">
+              3 projects
+            </span>
+
+          </div>
+
+
+          <div class="project-grid">
+
+
+            <!-- MAMA T'S KITCHEN -->
+
+            <article
+              class="project-card"
+              data-project="mama"
+            >
+
+              <img
+                src="assets/mamas-kitchen.png"
+                alt="Mama T's Kitchen food brand concept"
+              >
+
+              <div class="project-body">
+
+                <div class="tag">
+                  Food &amp; Snacks
+                </div>
+
+                <h4>
+                  Mama T’s Kitchen
+                </h4>
+
+                <p>
+                  Warm, appetizing branding for a flour-based food
+                  and snack business with packaging and social content.
+                </p>
+
+                <button
+                  class="case-btn"
+                  type="button"
+                >
+                  View case
+                </button>
+
+              </div>
+
+            </article>
+
+
+            <!-- YUMISA BAKES -->
+
+            <article
+              class="project-card"
+              data-project="yumisa"
+            >
+
+              <img
+                src="assets/yumisa-bakes.png"
+                alt="Yumisa Bakes bakery branding concept"
+              >
+
+              <div class="project-body">
+
+                <div class="tag">
+                  Bakery &amp; Pastries
+                </div>
+
+                <h4>
+                  Yumisa Bakes
+                </h4>
+
+                <p>
+                  Sweet, playful visual identity for a bakery,
+                  designed for packaging, posts and promotional graphics.
+                </p>
+
+                <button
+                  class="case-btn"
+                  type="button"
+                >
+                  View case
+                </button>
+
+              </div>
+
+            </article>
+
+
+            <!-- CRAVE CORNER -->
+
+            <article
+              class="project-card"
+              data-project="crave"
+            >
+
+              <img
+                src="assets/crave-corner.png"
+                alt="Crave Corner pizza and snacks branding concept"
+              >
+
+              <div class="project-body">
+
+                <div class="tag">
+                  Pizza &amp; Snacks
+                </div>
+
+                <h4>
+                  Crave Corner
+                </h4>
+
+                <p>
+                  Bold food branding for a pizza and flour-based
+                  snack restaurant, built for menus and social media.
+                </p>
+
+                <button
+                  class="case-btn"
+                  type="button"
+                >
+                  View case
+                </button>
+
+              </div>
+
+            </article>
+
+          </div>
+
+        </div>
+
+
+        <!-- =====================
+             EDUCATION
+        ====================== -->
+
+        <div class="category">
+
+          <div class="category-heading">
+
+            <h3>
+
+              <span class="category-icon">
+                ◇
+              </span>
+
+              Education
+
+            </h3>
+
+            <span class="category-label">
+              3 projects
+            </span>
+
+          </div>
+
+
+          <div class="project-grid">
+
+
+            <!-- BRIGHT MINDS -->
+
+            <article
+              class="project-card"
+              data-project="bright"
+            >
+
+              <img
+                src="assets/bright-minds.png"
+                alt="Bright Minds Academy education brand concept"
+              >
+
+              <div class="project-body">
+
+                <div class="tag">
+                  Educational Classes
+                </div>
+
+                <h4>
+                  Bright Minds Academy
+                </h4>
+
+                <p>
+                  Clean and trustworthy educational branding for
+                  classes, flyers and social media templates.
+                </p>
+
+                <button
+                  class="case-btn"
+                  type="button"
+                >
+                  View case
+                </button>
+
+              </div>
+
+            </article>
+
+
+            <!-- LEARNHUB -->
+
+            <article
+              class="project-card"
+              data-project="learnhub"
+            >
+
+              <img
+                src="assets/learnhub-tutors.png"
+                alt="LearnHub Tutors education branding concept"
+              >
+
+              <div class="project-body">
+
+                <div class="tag">
+                  Tutoring Brand
+                </div>
+
+                <h4>
+                  LearnHub Tutors
+                </h4>
+
+                <p>
+                  Friendly, professional identity for tutoring
+                  services, social media and promotional materials.
+                </p>
+
+                <button
+                  class="case-btn"
+                  type="button"
+                >
+                  View case
+                </button>
+
+              </div>
+
+            </article>
+
+
+            <!-- FUTURESTEP -->
+
+            <article
+              class="project-card"
+              data-project="future"
+            >
+
+              <img
+                src="assets/futurestep-academy.png"
+                alt="FutureStep Academy education branding concept"
+              >
+
+              <div class="project-body">
+
+                <div class="tag">
+                  Learning Centre
+                </div>
+
+                <h4>
+                  FutureStep Academy
+                </h4>
+
+                <p>
+                  Modern learning-centre branding with a confident
+                  identity for students and parents.
+                </p>
+
+                <button
+                  class="case-btn"
+                  type="button"
+                >
+                  View case
+                </button>
+
+              </div>
+
+            </article>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         SERVICES
+    ========================== -->
+
+    <section
+      class="services section"
+      id="services"
+    >
+
+      <div class="container services-grid">
+
+
+        <div class="services-intro">
+
+          <p class="eyebrow">
+            MY SERVICES
+          </p>
+
+          <h2>
+            Design Packages
+          </h2>
+
+          <p>
+            Simple, flexible packages for your brand needs.
+          </p>
+
+          <div class="scribble">
+            Let’s create<br>
+            something amazing! ♡
+          </div>
+
+        </div>
+
+
+        <div class="pricing-grid">
+
+
+          <!-- STARTER -->
+
+          <article class="price-card">
+
+            <h3>
+              Starter
+            </h3>
+
+            <div class="price">
+              ₦15,000
+            </div>
+
+            <ul>
+
+              <li>
+                1 logo concept
+              </li>
+
+              <li>
+                2 flyers
+              </li>
+
+              <li>
+                1 story template
+              </li>
+
+              <li>
+                48h delivery
+              </li>
+
+            </ul>
+
+            <a
+              class="btn btn-primary whatsapp-link"
+              href="#"
+              data-message="Hi Amara! I'd like to get started with the Starter package (₦15,000)."
+            >
+              ◉ Get started
+            </a>
+
+          </article>
+
+
+          <!-- STANDARD -->
+
+          <article class="price-card featured">
+
+            <div class="popular">
+              Most Popular
+            </div>
+
+            <h3>
+              Standard
+            </h3>
+
+            <div class="price">
+              ₦35,000
+            </div>
+
+            <ul>
+
+              <li>
+                2 logo concepts
+              </li>
+
+              <li>
+                3 flyers
+              </li>
+
+              <li>
+                3 story templates
+              </li>
+
+              <li>
+                Brand color palette
+              </li>
+
+              <li>
+                72h delivery
+              </li>
+
+            </ul>
+
+            <a
+              class="btn btn-primary whatsapp-link"
+              href="#"
+              data-message="Hi Amara! I'd like to get started with the Standard package (₦35,000)."
+            >
+              ◉ Get started
+            </a>
+
+          </article>
+
+
+          <!-- PRO -->
+
+          <article class="price-card">
+
+            <h3>
+              Pro
+            </h3>
+
+            <div class="price">
+              ₦70,000
+            </div>
+
+            <ul>
+
+              <li>
+                Full mini brand kit (logo suite)
+              </li>
+
+              <li>
+                5 flyers
+              </li>
+
+              <li>
+                5 story templates
+              </li>
+
+              <li>
+                Color + typography guide
+              </li>
+
+              <li>
+                5–7 day delivery
+              </li>
+
+            </ul>
+
+            <a
+              class="btn btn-primary whatsapp-link"
+              href="#"
+              data-message="Hi Amara! I'd like to get started with the Pro package (₦70,000)."
+            >
+              ◉ Get started
+            </a>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section
+      class="contact section"
+      id="contact"
+    >
+
+      <div class="container contact-grid">
+
+
+        <!-- Contact information -->
+
+        <div class="contact-intro">
+
+          <p class="eyebrow">
+            GET IN TOUCH
+          </p>
+
+          <h2>
+            Let’s work together
+          </h2>
+
+          <p>
+            Have a project in mind?
+            I’d love to hear about it.
+            Send me a message or reach out on WhatsApp.
+          </p>
+
+
+          <div class="contact-list">
+
+            <a
+              class="contact-item whatsapp-link"
+              href="#"
+              data-message="Hi Amara! I'd like to discuss a design project with you."
+            >
+              ◉
+              <span>
+                +12349137679230
+              </span>
+            </a>
+
+
+            <a
+              class="contact-item"
+              href="mailto:chizzye280@gmail.com"
+            >
+              ✉
+              <span>
+                chizzye280@gmail.com
+              </span>
+            </a>
+
+
+            <a
+              class="contact-item"
+              href="https://instagram.com/Amaradesign2026"
+              target="_blank"
+              rel="noopener"
+            >
+              ◎
+              <span>
+                @Amaradesign2026
+              </span>
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- Contact form -->
+
+        <form
+          class="contact-form"
+          id="contactForm"
+        >
+
+          <h3>
+            Send me a message
+          </h3>
+
+
+          <div class="form-row">
+
+            <label>
+              Your name
+
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Full name"
+                required
+              >
+
+            </label>
+
+
+            <label>
+              Your email
+
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="you@example.com"
+                required
+              >
+
+            </label>
+
+          </div>
+
+
+          <label>
+
+            Message
+
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Tell me about your project..."
+              required
+            ></textarea>
+
+          </label>
+
+
+          <button
+            class="btn btn-primary"
+            type="submit"
+          >
+            ◉ Send via WhatsApp
+          </button>
+
+
+   
